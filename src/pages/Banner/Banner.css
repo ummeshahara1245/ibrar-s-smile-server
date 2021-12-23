@@ -1,0 +1,40 @@
+.bgimage{
+    background: linear-gradient(90deg, #fea87c 60%, #bf5655 40%);
+    background-attachment: inherit;
+}
+.pacific{
+    font-family: 'Pacifico', cursive;
+}
+.button-off{
+    border: 1px solid red;
+    color: white;
+    background-color: #bf5655;
+    padding: 10px 20px;
+    border-radius: 25px;
+    font-size: 16px;
+    font-weight: 500;
+    transition: all linear 0.3s;
+}
+.ico{
+    transition: all linear 0.3s;
+}
+.button-off:hover .ico{
+    padding-left: 5px;
+    padding-right: 10px;
+    visibility: visible;
+
+}
+.button-off:hover{
+    background-color:white ;
+    color: orange;
+}
+@media screen and (max-width: 488px){
+        .mediqe{
+            background-image: url('https://ifaz-s-products.web.app/static/media/ibrar.b91ae770.png');
+        }
+    }
+    @media screen and (max-width: 768px){
+        .ibu{
+            visibility: hidden;
+        }
+    }

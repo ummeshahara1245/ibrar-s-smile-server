@@ -1,0 +1,31 @@
+.button-orange{
+    border: 1px solid #E76F51;
+    color: white;
+    background-color: #E76F51;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 500;
+    transition: all linear 0.3s;
+}
+.ico{
+height: 0;
+width: 0;
+visibility: hidden;
+}
+.button-orange:hover .ico{
+    padding-left: 5px;
+    padding-right: 5px;
+    visibility: visible;
+}
+.button-orange:hover{
+    background-color:white ;
+    color: #E76F51;
+}
+/* .cstyle img{
+    height: 300px;
+    width: 300px;
+} */
+body{
+    overflow-x: hidden;
+}

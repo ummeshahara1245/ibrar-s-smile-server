@@ -1,0 +1,27 @@
+.button-green{
+    border: 1px solid lime;
+    color: white;
+    background-color: lime;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 500;
+    transition: all linear 0.3s;
+}
+.ico{
+height: 0;
+width: 0;
+visibility: hidden;
+}
+.button-green:hover .ico{
+    padding-left: 5px;
+    padding-right: 5px;
+    visibility: visible;
+}
+.button-green:hover{
+    background-color:white ;
+    color: lime;
+}
+body{
+    overflow-x: hidden;
+}
